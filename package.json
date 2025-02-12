@@ -1,0 +1,34 @@
+{
+  "name": "dating-app",
+  "version": "1.0.0",
+  "description": "A modern dating application with React Native frontend and Node.js backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.1.1",
+    "@react-native-community/geolocation": "^3.4.0",
+    "@react-navigation/bottom-tabs": "^7.2.0",
+    "@react-navigation/native": "^7.0.14",
+    "@react-navigation/native-stack": "^7.2.0",
+    "axios": "^1.7.9",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.5.0",
+    "react-native-safe-area-context": "^5.2.0",
+    "react-native-screens": "^4.6.0",
+    "react-native-webrtc": "^124.0.5",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "jest": "^29.6.4",
+    "nodemon": "^3.0.1"
+  }
+}
